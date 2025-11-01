@@ -197,6 +197,7 @@ class DashboardApp:
                 messagebox.showerror("Empty Key", "Key cannot be empty.")
                 return
             messagebox.showinfo("Key Submitted", f"Submitted key: {key_val}")
+            
         # Instead of DLL/Token fields, just key field
         self.render_profile_form(
             title="Enter Key",
